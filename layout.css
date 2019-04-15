@@ -1,0 +1,48 @@
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+section{
+    display:-ms-inline-flexbox;
+}
+
+
+header{
+    background: lightblue;
+    width: 200px
+}
+
+.clearfix :after{
+  content: initial;  
+}
+
+.Language {
+    float: right;
+}
+
+.Hall {
+    float: right;
+}
+
+h3{
+    background: lightblue;
+    width: 300px
+}
+h2{
+    background: white;
+    width: 300px;
+}
+
+h1{
+    background: white;
+    width: 200px;
+}
