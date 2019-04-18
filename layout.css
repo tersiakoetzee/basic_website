@@ -16,19 +16,19 @@ li{
 }
 
 .personal_info{
-    background-image: url(/photo-green.jpeg);
+    background-image: url(photo-green.jpeg);
     display: flex;
     margin: 0.5px;
     
 }
 .city{
-    background-image: url(/photo-water.jpeg);
+    background-image: url(photo-water.jpeg);
     display: flex;
     margin: 0.5px;
 }
 .language{
     display: flex;
-    background-image: url(/photo-1495283897339-a5736d2c12b2.jpeg);
+    background-image: url(photo-1495283897339-a5736d2c12b2.jpeg);
     margin: 0.5px;
 }
 
