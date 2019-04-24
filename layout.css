@@ -1,3 +1,8 @@
+body{
+    background-image: url(images/photo-b.jpeg)
+
+}
+
 .table_moun {
     display: flex;
     
@@ -16,20 +21,23 @@ li{
 }
 
 .personal_info{
-    background-image: url(photo-green.jpeg);
     display: flex;
     margin: 0.5px;
     
 }
-.city{
-    background-image: url(photo-water.jpeg);
+ .city{
     display: flex;
-    margin: 0.5px;
-}
+    width: 50%;
+} 
+
+ .toronto_info{
+display: flex;
+margin: 1em;  
+ }
+
+
 .language{
     display: flex;
-    background-image: url(photo-1495283897339-a5736d2c12b2.jpeg);
-    margin: 0.5px;
 }
 
 .clearfix {
@@ -37,15 +45,13 @@ li{
   zoom: 1;   
 }
 
-
 .historical1 {
-background-image: url(/photo-hisc.jpeg);
-margin: 0.5px;
-    flex: 1;
+    flex: 1
 }
 
 .place_info {
     display: flex;
+    margin: 1em;
 }
 
 
@@ -58,21 +64,10 @@ table, th, td {
    margin: 5px;
 }
 
-.toronto_info{
-    display: flex;
-    flex: 1;
-    
-}
-
-
-
-@media(min-width:960px){
+@media(min-width:950px){
     .historical {
     display: flex; 
         }
 
-  h3 {
-      width: 300px;
-    margin: 5px;
-  }
+
 }
